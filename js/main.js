@@ -9,7 +9,7 @@ var num = 65.4312;
 
 // alert(age % num);
 
-var newNum = num - age;
+// var newNum = num - age;
 // alert(newNum);
 
 var isHuman = true;
@@ -22,8 +22,25 @@ var isDinosaur = false;
 //   alert('This is false')
 // }
 
-if (!0 || isDinosaur) {
-	alert('true')
+// if (!0 || isDinosaur) {
+//   alert('true')
+// } else {
+//   alert('false')
+// }
+
+
+
+// if (age > 25) {
+//   alert('over 25')
+// } else {
+//   alert('under 25')
+// }
+
+
+var newName = prompt('What is your name?');
+
+if (newName == 'ws') {
+	alert('Name are the same!')
 } else {
-	alert('false')
+	alert('Name are different!')
 }
