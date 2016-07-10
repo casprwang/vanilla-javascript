@@ -16,3 +16,10 @@ console.log(meatEaters);
 
 meatEaters.unshift('Pteranodon');
 console.log(meatEaters);
+console.log(meatEaters[2]);
+
+document.write('<ul>');
+meatEaters.forEach(function (item) {
+	document.write('<li>' + item + '</li>');
+});
+document.write('</ul>');
