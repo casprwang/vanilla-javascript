@@ -3,3 +3,10 @@ var writeMyName = function () {
 };
 
 writeMyName();
+
+var writeAName = function(name) {
+	document.write(name);
+
+}
+
+writeAName('wangsong');
