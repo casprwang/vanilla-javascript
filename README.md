@@ -1,3 +1,3 @@
 # javascript-practices
 
-## a collection of wangsong's js-practices!
+## a collection of WangSong's js-practices!
