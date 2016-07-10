@@ -1,0 +1,18 @@
+var meatEaters = ['T-Rex', 'Spinosaurus', 'Velociraptor'];
+
+meatEaters[0];
+meatEaters[2];
+
+console.log(meatEaters[2]);
+
+meatEaters.push('Allosaurus');
+console.log(meatEaters);
+
+meatEaters.pop();
+console.log(meatEaters);
+
+meatEaters.shift();
+console.log(meatEaters);
+
+meatEaters.unshift('Pteranodon');
+console.log(meatEaters);
