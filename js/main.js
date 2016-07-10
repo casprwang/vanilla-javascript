@@ -46,8 +46,16 @@ var isDinosaur = false;
 // }
 
 
-var counter = 0;
+// var counter = 0;
+// 
+// for (counter = 0; counter < 5; counter++) {
+//   document.write('hello')
+// }
 
-for (counter = 0; counter < 5; counter++) {
-	document.write('hello')
+
+var name = '';
+while (!name) {
+	name = prompt('what is your name?');
 }
+
+document.write(name);
