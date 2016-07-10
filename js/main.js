@@ -16,7 +16,7 @@ var isHuman = true;
 var isDinosaur = false;
 
 
-if (!0) {
+if (!0 && !isDinosaur) {
 	alert('This is true')
 }	else {
 	alert('This is false')
