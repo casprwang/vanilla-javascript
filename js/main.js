@@ -1,3 +1,6 @@
-alert('hello!');
-alert('really!');
-document.write('here!');
+var wangSup = 'WangSong';
+
+alert(wangSup);
+
+
+
