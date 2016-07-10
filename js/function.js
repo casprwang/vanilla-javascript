@@ -12,12 +12,12 @@ var writeAName = function(name) {
 writeAName('wangsong');
 
 
-var writeNameManyTimes = function (name) {
+var writeNameManyTimes = function (name, times) {
 	var i;
 	
-	for (i = 0; i < 10; i++) {
-	document.write(name + '<br>');
+	for (i = 0; i < times; i++) {
+	document.write('<br>'+ name);
 }
 };
 
-writeNameManyTimes('T-Rex');
+writeNameManyTimes('T-Rex', 5);
