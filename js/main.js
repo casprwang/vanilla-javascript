@@ -37,10 +37,17 @@ var isDinosaur = false;
 // }
 
 
-var newName = prompt('What is your name?');
+// var newName = prompt('What is your name?');
+// 
+// if (newName == 'ws') {
+//   alert('Name are the same!')
+// } else {
+//   alert('Name are different!')
+// }
 
-if (newName == 'ws') {
-	alert('Name are the same!')
-} else {
-	alert('Name are different!')
+
+var counter = 0;
+
+for (counter = 0; counter < 5; counter++) {
+	document.write('hello')
 }
