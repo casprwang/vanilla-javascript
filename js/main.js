@@ -1,6 +1,7 @@
-var wangSup = 'WangSong';
+var wangSup = 'smart!';
+var Wangsup = 'stupid!';
 
-alert(wangSup);
+alert(wangSup + ' ' + Wangsup);
 
 
 
