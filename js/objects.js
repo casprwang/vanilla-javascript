@@ -27,8 +27,15 @@ var microraptor = {
 
 var dinos = [iguanodon, spinosaurus, microraptor];
 
+var writeDinos = function (dinos) {
 dinos.forEach(function(item) {
 	document.write('<h2>' + item.name + '</h2>');
+	document.write('<dl>');
+	document.write('<dt>Height:</dt><dd>' + item.height + '</dd>');
+	document.write('<dt>Weight:</dt><dd>' + item.weight + '</dd>');
+	document.write('<dt>diet:</dt><dd>' + item.diet + '</dd>');
+	document.write('</dl>');
 });
-	
+};	
+
 
