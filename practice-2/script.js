@@ -1,10 +1,13 @@
-var balance = 500000;
-
-if (balance >=0 ) {
-	alert("The balance is positive");
-	if (balance > 10000) {
-		alert("The balance is large!");
-	}
-} else {
-	alert("The balance if negative");
+function myFunction() {
+	var a = 5;
+	var b = 10;
+	var c = 20;
+	var d = a + b + c;
+	alert("The value of d is: " + d );
 }
+
+myFunction();
+myFunction();
+myFunction();
+myFunction();
+myFunction();
