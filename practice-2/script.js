@@ -1,13 +1,8 @@
-function myFunction() {
-	var a = 5;
-	var b = 10;
-	var c = 20;
-	var d = a + b + c;
-	alert("The value of d is: " + d );
-}
+var headline = document.getElementById("mainHeading");
 
-myFunction();
-myFunction();
-myFunction();
-myFunction();
-myFunction();
+headline.onclick = function() {
+	headline.innerHTML = "You clicked the headline.";
+};	
+
+// headline.innerHTML = "Wow, a new headline!";
+
